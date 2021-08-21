@@ -1,0 +1,26 @@
+.page-footer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 41px;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+  }
+}
+
+.page-footer__logo {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 31px;
+}
+
+.page-footer__social-block {
+  justify-content: center;
+  column-gap: 67%;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}

@@ -1,0 +1,29 @@
+.how-it-work {
+  margin-top: 7px;
+  margin-bottom: 40px;
+  line-height: 1;
+  padding: 0;
+}
+
+.how-it-work__header {
+  font-size: 36px;
+  margin: 0;
+  margin-bottom: 40px;
+  font-family: $ff-oswald;
+  color: $c-black;
+
+  line-height: (40 / 36);
+  font-weight: 400;
+}
+
+.how-it-work__list {
+  margin: 0;
+  padding: 0;
+  padding-right: 5px;
+  list-style: none;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

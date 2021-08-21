@@ -1,0 +1,67 @@
+.map {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 11px;
+  margin-bottom: 0;
+  position: relative;
+  display: flex;
+  height: 462px;
+}
+
+.map__frame {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 462px;
+  border: none;
+}
+
+.map__welcome-text {
+  margin: 0;
+  width: 47%;
+  font-family: $ff-oswald;
+  font-size: 16px;
+  color: $c-special-black;
+  line-height: (18 / 16);
+  text-transform: uppercase;
+}
+
+.map__contacts {
+  padding-top: 16px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  display: flex;
+  background-color: $c-white;
+
+  @media (min-width: $desktop-width) {
+    width: max-content;
+    padding: 66px 76px 66px 76px;
+    margin-top: 95px;
+    margin-left: 110px;
+  }
+}
+
+.map__contacts-address {
+  margin: 0;
+  padding-left: 30px;
+  line-height: (20 / 14);
+}
+
+.map__pointer {
+  position: absolute;
+  top: 243px;
+  left: 134px;
+  z-index: 1;
+  width: 55px;
+  height: 55px;
+  background-image: url("../img/map/pointer.svg");
+  background-repeat: no-repeat;
+}
+
+.map__wrapper {
+  margin: 0;
+  width: 100%;
+  position: relative;
+  pointer-events: none;
+  height: inherit;
+}

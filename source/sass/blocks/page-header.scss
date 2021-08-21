@@ -1,0 +1,25 @@
+.page-header {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.page-header__logo {
+  width: 85%;
+}
+.page-header__logo-block {
+  display: flex;
+  width: 100%;
+  margin-top: 11px;
+  padding-left: 20px;
+  padding-bottom: 11px;
+
+  @media (min-width: $tablet-width) {
+    width: min-content;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-right: 270px;
+    margin-left: 110px;
+  }
+}

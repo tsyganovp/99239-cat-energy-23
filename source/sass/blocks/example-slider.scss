@@ -1,0 +1,10 @@
+.example-slider {
+  padding-top: 39px;
+  padding-bottom: 34px
+}
+
+.example-slider__image {
+  &:nth-child(2) {
+    display: none;
+  }
+}

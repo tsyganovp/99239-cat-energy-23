@@ -1,0 +1,14 @@
+.cat-owner__comment-text {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: (26 / 24);
+  color: black;
+}
+
+.cat-owner__textarea {
+  font-size: 16px;
+  font-family: $ff-oswald;
+  line-height: (18 / 16);
+  color: $c-dark-grey;
+  text-transform: uppercase;
+}

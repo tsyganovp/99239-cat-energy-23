@@ -1,0 +1,21 @@
+.catalog-more__product-text {
+  font-family: $ff-oswald;
+  font-size: 16px;
+  line-height: (20 / 16);
+  text-transform: uppercase;
+  color: $c-special-black;
+}
+
+.catalog-more__taste-text {
+  font-size: 16px;
+  color: $c-dark-grey;
+}
+
+.catalog-more__button {
+  font-family: $ff-oswald;
+  font-size: 16px;
+  line-height: (20 / 16);
+  color: $c-special-black;
+  text-transform: uppercase;
+  background-color: $c-basic-grey;
+}

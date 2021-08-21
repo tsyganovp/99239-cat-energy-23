@@ -1,0 +1,20 @@
+.slider-controls {
+  padding-top: 33px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.slider-controls__before-button,
+.slider-controls__after-button {
+  font-size: 16px;
+  font-family: $ff-oswald;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $c-black;
+  line-height: (20 / 16);
+  border: none;
+}
+.slider-controls__bar {
+  width: 38%;
+}
