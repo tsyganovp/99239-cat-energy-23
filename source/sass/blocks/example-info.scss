@@ -27,7 +27,11 @@
 }
 
 .example-info__promo-description {
+  margin: 0;
   padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+  text-align: center;
   font-size: 12px;
   font-family: $ff-arial;
   color: $c-dark-grey;
