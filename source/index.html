@@ -13,7 +13,13 @@
 
     <div class="page-header__logo-block">
       <div class="page-header__logo">
-        <a class="page-header__link"><img src="img/header/mobile-logo-text.svg" alt="Логотип" /></a>
+        <a class="page-header__link">
+          <picture class = "page-header__logo-image">
+            <source media="(min-width: 1200px)" srcset="img/header/desktop-logo.svg">
+            <source media="(min-width: 768px)" srcset="img/header/tablet-logo.svg">
+            <img src="img/header/mobile-logo.svg" alt="Логотип" >
+          </picture>
+        </a>
       </div>
 
       <button type="button" class="main-nav__toogle" aria-label="Открыть меню"><img src="img/header/cross.svg"
@@ -38,8 +44,11 @@
     <section class="main-promo wrapper wrapper--main">
       <h2 class="main-promo__header">Функциональное питание для котов</h2>
       <p class="main-promo__text">Занялся собой? Займись котом!</p>
-      <img class="main-promo__image" src="img/main-promo/mobile-promo-png.png" alt="Корм для кота со вкусом курицы"
-        width="280" height="270" />
+      <picture class = "main-promo__image">
+        <source media="(min-width: 1200px)" srcset="img/header/desktop-logo.svg">
+        <source media="(min-width: 768px)" srcset="img/main-promo/tablet-promo-png.png">
+        <img src="img/main-promo/mobile-promo-png.png" alt="Корм" >
+      </picture>
       <a href="form.html" class="main-promo__promo-link">Подобрать программу</a>
     </section>
     <section class="articles wrapper">

@@ -3,7 +3,9 @@
 
   @media (min-width: $tablet-width) {
     margin: 0;
+    margin-left: 94px;
     width: 55%;
+    flex-grow: 2;
   }
 
   @media (min-width: $desktop-width) {
@@ -21,7 +23,10 @@
   list-style: none;
 
   @media (min-width: $tablet-width) {
+    padding-top: 37px;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 
@@ -30,7 +35,9 @@
   padding-bottom: 12%;
 
   @media (min-width: $tablet-width) {
-    margin-left: 34px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 31px;
   }
 
   @media (min-width: $desktop-width) {
@@ -46,6 +53,12 @@
   text-transform: uppercase;
   text-decoration: none;
   font-size: 20px;
+
+  @media (min-width: $tablet-width) {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: (24/18);
+  }
 }
 
 .main-nav__toogle {
