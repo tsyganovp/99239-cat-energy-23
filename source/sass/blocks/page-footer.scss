@@ -5,6 +5,10 @@
 
   @media (min-width: $tablet-width) {
     flex-direction: row;
+    padding-top: 56px;
+    padding-left: 9px;
+    padding-right: 11px;
+    padding-bottom: 61px;
   }
 }
 
@@ -12,6 +16,11 @@
   display: block;
   margin: 0 auto;
   margin-bottom: 31px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+    //padding-top: 16px;
+  }
 }
 
 .page-footer__social-block {
@@ -23,4 +32,31 @@
   padding: 0;
   list-style: none;
   display: flex;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 0;
+    padding-top: 0;
+    column-gap: 0;
+    align-items: center;
+    column-gap: 27px;
+  }
+}
+
+.page-footer__socio-icon--vk {
+  @media (min-width: $tablet-width) {
+    width: 29px;
+    height: 17px;
+  }
+}
+.page-footer__socio-icon--insta {
+  @media (min-width: $tablet-width) {
+    width: 23px;
+    height: 23px;
+  }
+}
+.page-footer__socio-icon--facebook {
+  @media (min-width: $tablet-width) {
+    width: 17px;
+    height: 26px;
+  }
 }

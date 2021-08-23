@@ -5,6 +5,8 @@
   @media (min-width: $tablet-width) {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+
     padding-top: 55px;
   }
 

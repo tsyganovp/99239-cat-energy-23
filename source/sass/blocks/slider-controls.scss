@@ -7,7 +7,7 @@
   @media (min-width: $tablet-width) {
     //margin: 0 auto;
     padding-top: 15px;
-    padding-left: 69px;
+    //padding-left: 69px;
   }
 }
 
@@ -27,6 +27,7 @@
     line-height: 30px;
     background-color: inherit;
     border-bottom: 1px dashed $c-grey-border;
+    height:fit-content;
 
   }
 }

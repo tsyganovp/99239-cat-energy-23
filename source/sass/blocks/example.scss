@@ -6,12 +6,13 @@
   background-color: $c-grey-background;
 
   @media (min-width: $tablet-width) {
-    background-color: $c-white;
+    background: linear-gradient($c-white 60%,$c-grey-background-example 40%);
     border-top: 1px solid #E6E6E6;
     padding-top: 42px;
     padding-left: 31px;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 33px;
   }
   @media (min-width: $desktop-width) {
     flex-direction: row;
