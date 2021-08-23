@@ -45,7 +45,7 @@
       <h2 class="main-promo__header">Функциональное питание для котов</h2>
       <p class="main-promo__text">Занялся собой? Займись котом!</p>
       <picture class = "main-promo__image">
-        <source media="(min-width: 1200px)" srcset="img/header/desktop-logo.svg">
+        <source media="(min-width: 1200px)" srcset="img/main-promo/desktop-promo-png.png">
         <source media="(min-width: 768px)" srcset="img/main-promo/tablet-promo-png.png">
         <img src="img/main-promo/mobile-promo-png.png" alt="Корм" >
       </picture>
@@ -127,29 +127,46 @@
           этом он не менял своих привычек и по-прежнему спит по 16 часов в
           день.
         </p>
-        <dl class="example-info__promo-text example-promo-text">
+        <dl class="example-info__promo-text example-promo-text example-info__promo-text--kilos">
           <dt>5 КГ</dt>
           <dd class="example-info__promo-description">снижение веса</dd>
         </dl>
-        <dl class="example-info__promo-text">
+        <dl class="example-info__promo-text example-info__promo-text--days">
           <dt>60 ДНЕЙ</dt>
           <dd class="example-info__promo-description">затрачено времени</dd>
         </dl>
         <p class="example-info__price-text">
-          Затраты на питание: 15 000 РУБ.
+          <span class = "example-info__text">Затраты на питание:</span><span class= "example-info__prcie">15 000 РУБ.</span>
         </p>
       </div>
       <div class="example-slider">
-        <img src="img/example/before-mobile.png" alt="Картинка для сравнения результатов"
-          class="example-slider__image" />
-        <img src="img/example/after-mobile.png" alt="Картинка для сравнения результатов"
-          class="example-slider__image" />
+
+        <picture class = "example-slider__image example-slider__image--left">
+          <source media="(min-width: 1200px)" srcset="">
+          <source media="(min-width: 768px)" srcset="img/example/left-cat-tablet-2.jpg">
+          <img src="img/example/before-mobile.png" alt="Картинка для сравнения результатов" >
+        </picture>
+
+        <!--<img src="img/example/before-mobile.png" alt="Картинка для сравнения результатов"
+          class="example-slider__image" />-->
+
+          <picture class = "example-slider__image example-slider__image--right">
+            <source media="(min-width: 1200px)" srcset="">
+            <source media="(min-width: 768px)" srcset="img/example/right-cat-tablet-2.jpg">
+            <img src="img/example/after-mobile.png" alt="Картинка для сравнения результатов" >
+          </picture>
+
+        <!--<img src="img/example/after-mobile.png" alt="Картинка для сравнения результатов"
+          class="example-slider__image" />-->
+
+
         <div class="example-slider__controls slider-controls">
           <button type="button" class="slider-controls__before-button">
             Было
           </button>
-          <div class="slider-controls__bar">
-            <button type="button" class="slider-controls__range-button"></button>
+          <div class="slider-controls__range-control">
+            <div class="slider-controls__scale"></div>
+            </div>
           </div>
           <button type="button" class="slider-controls__after-button">
             Стало

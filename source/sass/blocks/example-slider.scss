@@ -1,10 +1,21 @@
 .example-slider {
   padding-top: 39px;
-  padding-bottom: 34px
+  padding-bottom: 34px;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 55px;
+  }
+
 }
 
 .example-slider__image {
   &:nth-child(2) {
     display: none;
+    @media (min-width: $tablet-width) {
+      display: block;
+    }
   }
+
 }

@@ -3,9 +3,16 @@
   padding: 28px 20px 0 20px;
   display: flex;
   flex-direction: column;
-  background-color: #eaeaea;
+  background-color: $c-grey-background;
 
-
+  @media (min-width: $tablet-width) {
+    background-color: $c-white;
+    border-top: 1px solid #E6E6E6;
+    padding-top: 42px;
+    padding-left: 31px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
   @media (min-width: $desktop-width) {
     flex-direction: row;
     flex-wrap: wrap;
@@ -20,6 +27,10 @@
   line-height: (40 /36);
   font-weight: 400;
 
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+    line-height: 1;
+  }
   @media (min-width: $desktop-width) {
     width: 100%;
   }

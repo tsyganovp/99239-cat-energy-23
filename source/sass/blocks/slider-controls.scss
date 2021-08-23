@@ -3,6 +3,12 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
+
+  @media (min-width: $tablet-width) {
+    //margin: 0 auto;
+    padding-top: 15px;
+    padding-left: 69px;
+  }
 }
 
 .slider-controls__before-button,
@@ -14,7 +20,53 @@
   color: $c-black;
   line-height: (20 / 16);
   border: none;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: inherit;
+    border-bottom: 1px dashed $c-grey-border;
+
+  }
 }
-.slider-controls__bar {
-  width: 38%;
+.slider-controls__range-control {
+
+  @media (min-width: $tablet-width) {
+    position: relative;
+    margin-top: 13px;
+    margin-left: 23px;
+    margin-right: 23px;
+    border-radius: 10px;
+    width: 428px;
+    height: 6px;
+    background-color: $c-grey-border;
+  }
+}
+.slider-controls__scale {
+
+  @media (min-width:$tablet-width) {
+    position: absolute;
+    top: -14px;
+    left: 198px;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    background:$c-white;
+    border: 1px solid #cdcdcd;
+    filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.16));
+  }
+
+  &:after {
+    @media (min-width: $tablet-width) {
+    position: absolute;
+    top: 39%;
+    left: 39%;
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: $c-light-green;
+    border-radius: 50%;
+    }
+  }
 }
