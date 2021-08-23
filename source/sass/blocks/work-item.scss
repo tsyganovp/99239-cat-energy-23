@@ -5,22 +5,95 @@
 
   &:nth-child(1) {
     background-image: url("../img/how-it-work/leaf.svg");
+
+    @media (min-width: $tablet-width) {
+    background-size: 80px 80px;
+    background-position: -1px 33px;
+    position: relative;
+    &::after {
+      z-index: -2;
+      position: absolute;
+      top: -8px;
+      right: 127px;
+      content: '1';
+      font-family: $ff-oswald;
+      color: $c-basic-grey;
+      font-weight: 400;
+      font-size: 280px;
+      line-height: 1;
+    }
   }
+}
 
   &:nth-child(2) {
     background-image: url("../img/how-it-work/tub.svg");
+
+    @media (min-width: $tablet-width) {
+    background-size: 80px 80px;
+    background-position: 27px 33px;
+    position: relative;
+    &::after {
+      z-index: -2;
+      position: absolute;
+      top: -8px;
+      right: 83px;
+      content: '2';
+      font-family: $ff-oswald;
+      color: $c-basic-grey;
+      font-weight: 400;
+      font-size: 280px;
+      line-height: 1;
+    }
   }
+}
 
   &:nth-child(3) {
     background-image: url("../img/how-it-work/eat.svg");
-  }
 
+    @media (min-width: $tablet-width) {
+    background-size: 80px 80px;
+    background-position: -1px 56px;
+    position: relative;
+    &::after {
+      z-index: -2;
+      position: absolute;
+      top: 16px;
+      right: 110px;
+      content: '3';
+      font-family: $ff-oswald;
+      color: $c-basic-grey;
+      font-weight: 400;
+      font-size: 280px;
+      line-height: 1;
+    }
+  }
+}
   &:nth-child(4) {
     background-image: url("../img/how-it-work/alarm.svg");
+
+    @media (min-width: $tablet-width) {
+    background-size: 80px 80px;
+    background-position: 27px 56px;
+    position: relative;
+    &::after {
+      z-index: -2;
+      position: absolute;
+      top: 18px;
+      right: 81px;
+      content: '4';
+      font-family: $ff-oswald;
+      color: $c-basic-grey;
+      font-weight: 400;
+      font-size: 280px;
+      line-height: 1;
+    }
   }
+}
 
   @media (min-width: $tablet-width) {
     width: 50%;
+    box-sizing: border-box;
+    padding-right: 83px;
   }
 
   @media (min-width: $desktop-width) {
@@ -32,4 +105,29 @@
   margin: 0;
   padding-left: 80px;
   line-height: (18 / 14);
+
+  @media (min-width: $tablet-width) {
+    padding-top: 145px;
+    padding-bottom: 57px;
+    padding-left: 0px;
+    font-size: 16px;
+    line-height: (24 / 16);
+  }
+}
+
+.work-item__text--two {
+  @media (min-width: $tablet-width) {
+    padding-left: 26px;
+  }
+}
+.work-item__text--three {
+  @media (min-width: $tablet-width) {
+    padding-top: 168px;
+  }
+}
+.work-item__text--four {
+  @media (min-width: $tablet-width) {
+    padding-top: 168px;
+    padding-left: 26px;
+  }
 }
