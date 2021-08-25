@@ -9,6 +9,11 @@
     padding-left: 11px;
     margin-bottom: 25px;
   }
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    padding-top: 35px;
+    margin-bottom: 0;
+  }
 }
 
 .how-it-work__header {

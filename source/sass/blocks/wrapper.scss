@@ -1,6 +1,11 @@
 .wrapper {
   margin-left: 20px;
   margin-right: 20px;
+
+  @media (min-width: $desktop-width) {
+    margin-left: 110px;
+    margin-right: 110px;
+  }
 }
 
 .wrapper--nav {

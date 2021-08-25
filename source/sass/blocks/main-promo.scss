@@ -17,7 +17,10 @@
 
   @media (min-width: $desktop-width) {
     background: linear-gradient(to left,rgba(104, 183, 56, 0.85) 50%, $c-white 50%);
-
+    //background-image: url("../img/header/green-cat-bg.png");
+    //background-repeat: no-repeat;
+    //background-position: 100px 100px;
+    padding-left: 191px;
   }
 }
 
@@ -39,6 +42,13 @@
     padding-right: 210px;
     padding-bottom: 42px;
     padding-left: 89px;
+  }
+
+  @media (min-width:$desktop-width) {
+    padding-left: 0;
+    padding-top: 50px;
+    padding-right: 666px;
+    padding-bottom: 42px;
   }
 }
 
@@ -62,6 +72,9 @@
     padding-bottom: 48px;
     padding-left: 89px;
   }
+  @media (min-width:$desktop-width) {
+    padding-left: 0;
+  }
 }
 
 .main-promo__image {
@@ -75,6 +88,11 @@
     width: 709px;
     height: 609px;
   }
+@media (min-width: $desktop-width) {
+     margin-left: 366px;
+    margin-top: -367px;
+    height: 551px;
+}
 }
 
 .main-promo__promo-link {
@@ -101,5 +119,8 @@
     width: max-content;
     order: 2;
     z-index: 2;
+  }
+  @media (min-width:$desktop-width) {
+    margin-left: 0;
   }
 }

@@ -13,8 +13,8 @@
     &::after {
       z-index: -2;
       position: absolute;
-      top: -8px;
-      right: 127px;
+      top: -6px;
+      right: 75px;
       content: '1';
       font-family: $ff-oswald;
       color: $c-basic-grey;
@@ -35,8 +35,8 @@
     &::after {
       z-index: -2;
       position: absolute;
-      top: -8px;
-      right: 83px;
+      top: -6px;
+      right: 36px;
       content: '2';
       font-family: $ff-oswald;
       color: $c-basic-grey;
@@ -57,8 +57,8 @@
     &::after {
       z-index: -2;
       position: absolute;
-      top: 16px;
-      right: 110px;
+      top: -6px;
+      right: 15px;
       content: '3';
       font-family: $ff-oswald;
       color: $c-basic-grey;
@@ -66,6 +66,10 @@
       font-size: 280px;
       line-height: 1;
     }
+  }
+
+  @media (min-width: $desktop-width) {
+    background-position: 41px 33px;
   }
 }
   &:nth-child(4) {
@@ -78,8 +82,8 @@
     &::after {
       z-index: -2;
       position: absolute;
-      top: 18px;
-      right: 81px;
+      top: -6px;
+      right: -6px;
       content: '4';
       font-family: $ff-oswald;
       color: $c-basic-grey;
@@ -87,6 +91,9 @@
       font-size: 280px;
       line-height: 1;
     }
+  }
+  @media (min-width: $desktop-width) {
+    background-position: 65px 33px;
   }
 }
 
@@ -98,6 +105,7 @@
 
   @media (min-width: $desktop-width) {
     width: 25%;
+    padding-right: 0;
   }
 }
 
@@ -124,10 +132,18 @@
   @media (min-width: $tablet-width) {
     padding-top: 168px;
   }
+  @media (min-width: $desktop-width) {
+    padding-top: 145px;
+    padding-left: 41px;
+  }
 }
 .work-item__text--four {
   @media (min-width: $tablet-width) {
     padding-top: 168px;
     padding-left: 26px;
+  }
+  @media (min-width: $desktop-width) {
+    padding-top: 145px;
+    padding-left: 63px;
   }
 }
