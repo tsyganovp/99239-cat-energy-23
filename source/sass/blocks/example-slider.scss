@@ -1,7 +1,8 @@
 .example-slider {
   padding-top: 39px;
   padding-bottom: 34px;
-
+  display: flex;
+  flex-direction: column;
   @media (min-width: $tablet-width) {
     display: flex;
     flex-wrap: wrap;
@@ -13,7 +14,13 @@
 
 .example-slider__image {
  // width: 311px;
+ margin: 0 auto;
 
+ @media (min-width: $tablet-width) {
+  width: 670px;
+
+  height: 533px;
+ }
   &:nth-child(2) {
     display: none;
     @media (min-width: $tablet-width) {

@@ -14,6 +14,11 @@
     padding-top: 47px;
     padding-left: 29px;
   }
+
+  @media (min-width: $desktop-width) {
+    background: linear-gradient(to left,rgba(104, 183, 56, 0.85) 50%, $c-white 50%);
+
+  }
 }
 
 .main-promo__header {

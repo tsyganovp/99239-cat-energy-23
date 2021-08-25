@@ -94,11 +94,12 @@
   z-index: 1;
   width: 55px;
   height: 55px;
-  background-size: 55px 55px;
-  background-image: url("../img/map/pointer.svg");
+  //background-size: 55px 55px;
+  background-image: url("../img/map/mobile-pointer.svg");
   background-repeat: no-repeat;
 
   @media (min-width: $tablet-width) {
+    background-image: url("../img/map/tablet-pointer.svg");
     top: 335px;
     left: 333px;
     width: 113px;

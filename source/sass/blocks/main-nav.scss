@@ -10,7 +10,7 @@
 
   @media (min-width: $desktop-width) {
     margin: 0;
-    width: 55%;
+    //width: 50%;
   }
 }
 
@@ -28,6 +28,13 @@
     flex-direction: row;
     justify-content: space-between;
   }
+
+  @media (min-width: $desktop-width) {
+    justify-content: inherit;
+    justify-content: flex-end;
+    padding-top: 59px;
+    padding-right: 80px;
+  }
 }
 
 .main-nav__item {
@@ -41,7 +48,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-left: 37px;
+    padding-right: 33px;
   }
 }
 
@@ -59,8 +66,19 @@
     font-size: 18px;
     line-height: (24/18);
   }
+  @media (min-width: $desktop-width) {
+    color: $c-white;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 6px;
+  }
 }
+.main-nav__link--current {
 
+  @media (min-width: $desktop-width) {
+    border-bottom: 2px solid $c-white;
+  }
+}
 .main-nav__toogle {
   width: fit-content;
   background: white;

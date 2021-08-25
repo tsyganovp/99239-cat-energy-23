@@ -55,8 +55,8 @@
   padding-right: 18px;
   width: 31%;
   @media (min-width: $tablet-width) {
-    margin: 0;
-    padding: 0;
+    //margin: 0;
+    //padding: 0;
     width: inherit;
   }
 }
@@ -112,6 +112,7 @@
 
   @media (min-width: $tablet-width) {
     padding-left: 0;
+    padding-top: 0;
   }
 }
 .example-info__promo-text--days-text {
@@ -120,5 +121,6 @@
 
   @media (min-width: $tablet-width) {
     padding-left: 0;
+    padding-top: 0;
   }
 }

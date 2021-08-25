@@ -2,6 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+
+  @media (min-width: $desktop-width) {
+    background: linear-gradient(to left,rgba(104, 183, 56, 0.85) 50%, $c-white 50%);
+  }
 }
 
 .page-header__logo {
@@ -28,8 +32,9 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-right: 270px;
-    margin-left: 110px;
+    //width: 50%;
+    padding-left: 110px;
+    padding-top: 53px;
   }
 
   @media (min-resolution: 2dppx) {
