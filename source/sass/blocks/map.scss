@@ -26,11 +26,11 @@
 
 .map__welcome-text {
   margin: 0;
-  width: 47%;
+  width: 50%;
   font-family: $ff-oswald;
   font-size: 16px;
   color: $c-special-black;
-  line-height: (18 / 16);
+  line-height: 1.37;
   text-transform: uppercase;
 
   @media (min-width: $tablet-width) {
@@ -44,7 +44,8 @@
   box-sizing: border-box;
   padding-top: 16px;
   padding-left: 20px;
-  padding-bottom: 30px;
+  padding-right: 20px;
+  padding-bottom: 25px;
   display: flex;
   background-color: $c-white;
 
@@ -71,8 +72,10 @@
 }
 .map__contacts-address {
   margin: 0;
-  padding-left: 30px;
-  line-height: (20 / 14);
+  padding-left: 0px;
+
+  line-height: 1.5;
+  width: 50%;
 
   @media (min-width: $tablet-width) {
     display: flex;
@@ -91,6 +94,7 @@
   z-index: 1;
   width: 55px;
   height: 55px;
+  background-size: 55px 55px;
   background-image: url("../img/map/pointer.svg");
   background-repeat: no-repeat;
 

@@ -6,13 +6,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
     padding-top: 55px;
   }
 
 }
 
 .example-slider__image {
+ // width: 311px;
+
   &:nth-child(2) {
     display: none;
     @media (min-width: $tablet-width) {

@@ -1,7 +1,7 @@
 .articles {
   display: flex;
   flex-direction: column;
-  margin-top: 23px;
+  margin-top: 19px;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 0px;
@@ -22,7 +22,7 @@
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 20px;
-  padding: 21px 33px 20px 20px;
+  padding: 21px 21px 21px 20px;
   background-color: #f2f2f2;
 
   @media (min-width: $tablet-width) {
@@ -141,17 +141,21 @@
 .articles__text {
   margin: 0;
   margin-top: 23px;
-  margin-bottom: 25px;
+  //margin-bottom: 25px;
+  padding-bottom: 23px;
   font-size: 14px;
-  line-height: (18 / 14);
+  line-height: 1.300;
+  border-bottom: 1px solid $c-light-grey-border;
 
   @media (min-width: $tablet-width) {
     margin-top: 25px;
     font-size: 16px;
     line-height: (24 / 16);
+    padding-bottom: 0;
   }
   @media (min-width: $desktop-width) {
     width: 100%;
+    padding-bottom: 0;
   }
 }
 .articles-text--pro {
@@ -164,6 +168,8 @@
 }
 }
 .articles__link {
+  position: relative;
+
   margin-top: 21px;
 
   font-family: $ff-oswald;
@@ -172,6 +178,15 @@
   color: $c-black;
   text-transform: uppercase;
   text-decoration: none;
+
+  &::after {
+    position: absolute;
+    top: -4px;
+    left: 100px;
+    content: url("../img/arrow-right.svg");
+    width: 32px;
+    height: 10px;
+  }
 
   @media (min-width:$tablet-width) {
     position: relative;

@@ -1,7 +1,7 @@
 .academy-block {
   font-size: 16px;
   display: flex;
-  padding-top: 29px;
+  //padding-top: 29px;
 
   @media (min-width: $tablet-width) {
     display: flex;
@@ -12,6 +12,8 @@
     font-family: $ff-arial;
     font-size: 16px;
     line-height: (18 / 16);
+    margin-top: 9px;
+    margin-left: 139px;
   }
 }
 .academy-block__text {

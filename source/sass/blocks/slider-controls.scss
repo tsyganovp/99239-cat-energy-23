@@ -1,11 +1,12 @@
 .slider-controls {
-  padding-top: 33px;
+  padding-top: 30px;
   display: flex;
   justify-content: center;
   flex-direction: row;
 
   @media (min-width: $tablet-width) {
     //margin: 0 auto;
+    padding-top: 33px;
     padding-top: 15px;
     //padding-left: 69px;
   }
@@ -13,6 +14,7 @@
 
 .slider-controls__before-button,
 .slider-controls__after-button {
+  background-color: inherit;
   font-size: 16px;
   font-family: $ff-oswald;
   font-weight: 400;
@@ -32,8 +34,19 @@
   }
 }
 .slider-controls__range-control {
+  justify-content: center;
+  position: relative;
+  margin-top: 3px;
+  margin-left: 12px;
+  margin-right: 11px;
+  border-radius: 10px;
+  width: 84px;
+  height: 12px;
+  background-color: $c-white;
+  border: 1px solid $c-gredy-border-reverse;
 
   @media (min-width: $tablet-width) {
+    border: none;
     position: relative;
     margin-top: 13px;
     margin-left: 23px;
@@ -45,6 +58,13 @@
   }
 }
 .slider-controls__scale {
+  position: absolute;
+  top: 3px;
+  left: 7px;
+  border-radius: 10px;
+  width: 35px;
+  height: 6px;
+  background:$c-light-green;
 
   @media (min-width:$tablet-width) {
     position: absolute;
