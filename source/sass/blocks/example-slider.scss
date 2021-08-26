@@ -9,9 +9,12 @@
     justify-content: center;
     padding-top: 55px;
   }
-
+  @media (min-width: $desktop-width) {
+    padding-top: 0;
+    margin-top: -130px;
+    margin-left: -16px;
 }
-
+}
 .example-slider__image {
  // width: 311px;
  margin: 0 auto;

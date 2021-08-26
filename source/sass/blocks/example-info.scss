@@ -11,6 +11,10 @@
     margin-top: 65px;
     padding-right: 10px;
   }
+  @media (min-width:$desktop-width) {
+    margin-top: 147px;
+    padding-right: 150px;
+  }
 }
 
 .example-info__promo-text {
@@ -100,11 +104,22 @@
     font-size: 20px;
     line-height: 1;
   }
+  @media (min-width: $desktop-width) {
+    height: fit-content;
+    flex-direction: row;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
 }
 .example-info__text {
   @media (min-width: $tablet-width) {
     margin-bottom: 8px;
   }
+  @media (min-width: $desktop-width) {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 63px;
+}
 }
 .example-info__promo-text--kilos-text {
   padding-left: 0px;
