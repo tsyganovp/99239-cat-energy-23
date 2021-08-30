@@ -2,6 +2,13 @@
   margin: 0;
   padding-left: 20px;
   padding-right: 20px;
+
+  @media (min-width:$tablet-width) {
+    max-width: 768px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 .wrapper--nav {
  margin: 0;
@@ -11,14 +18,28 @@
   margin: 0;
   padding-left: 0;
   padding-right: 0;
+  @media (min-width:$tablet-width) {
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 }
 .wrapper--map {
   padding-left: 0;
   padding-right: 0;
+
+  @media(min-width: $tablet-width) {
+    margin: 0 auto;
+  }
 }
 .wrapper--header {
   padding-left: 0;
   padding-right: 0;
+
+  @media (min-width:$tablet-width) {
+    padding-left: 30px;
+    padding-right: 30px;
+}
 }
 .wrapper--example {
   padding-left: 0;

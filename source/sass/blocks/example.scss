@@ -9,10 +9,7 @@
     background: linear-gradient($c-white 60%,$c-grey-background-example 40%);
     border-top: 1px solid #E6E6E6;
     padding-top: 42px;
-    padding-left: 31px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 36px;
+    padding-bottom: 30px;
   }
   @media (min-width: $desktop-width) {
     flex-direction: row;
@@ -32,6 +29,7 @@
   padding-left: 20px;
 
   @media (min-width: $tablet-width) {
+    padding-left: 30px;
     font-size: 60px;
     line-height: 1;
   }

@@ -23,7 +23,7 @@
   list-style: none;
 
   @media (min-width: $tablet-width) {
-    padding-top: 37px;
+    padding-top: 43px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -45,13 +45,19 @@
   border-top: 1px solid $c-header-menu-border;
 
   @media (min-width: $tablet-width) {
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-right: 31px;
+    white-space: nowrap;
+    border-top: none;
+    padding-top: 0;
+    padding-right: 35px;
   }
 
   @media (min-width: $desktop-width) {
     padding-right: 33px;
+  }
+  &:last-child {
+    @media (min-width: $tablet-width) {
+      padding-right: 0;
+    }
   }
 }
 

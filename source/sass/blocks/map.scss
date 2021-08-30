@@ -9,6 +9,7 @@
 
   @media (min-width: $tablet-width) {
     height: 592px;
+    margin: 0 auto;
   }
   @media (min-width: $desktop-width) {
     margin-top: 0;
@@ -60,10 +61,10 @@
   background-color: $c-white;
 
   @media (min-width: $tablet-width) {
-    padding-top: 54px;
+    padding-top: 73px;
     padding-left: 71px;
     padding-right: 72px;
-    padding-bottom: 57px;
+    padding-bottom: 49px;
   }
   @media (min-width: $desktop-width) {
     width: max-content;
@@ -115,7 +116,7 @@
 
   @media (min-width: $tablet-width) {
     background-image: url("../img/map/tablet-pointer.svg");
-    top: 335px;
+    top: 345px;
     left: 333px;
     width: 113px;
     height: 106px;

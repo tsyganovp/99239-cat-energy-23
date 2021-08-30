@@ -8,10 +8,10 @@
   background-repeat: no-repeat;
 
   @media (min-width: $tablet-width) {
+
     background-image: none;
     background-color: $c-white;
     padding-top: 47px;
-    padding-left: 29px;
   }
 
   @media (min-width: $desktop-width) {
@@ -38,7 +38,7 @@
     color: $c-black;
     font-size: 60px;
     text-align: left;
-    padding-right: 210px;
+    padding-right: 150px;
     padding-bottom: 42px;
     padding-left: 89px;
   }

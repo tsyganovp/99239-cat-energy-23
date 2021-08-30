@@ -1,6 +1,11 @@
 .example-info {
   padding-left: 20px;
   padding-right: 20px;
+
+  @media (min-width:$tablet-width) {
+    padding-left: 30px;
+    padding-right: 30px;
+}
 }
 .example-info__description {
   margin: 0;
@@ -35,16 +40,14 @@
   border: 2px solid $c-gredy-border-reverse;
 
   @media (min-width: $tablet-width) {
+    width: 162px;
     border: 2px solid $c-gredy-border-reverse;
     box-sizing: border-box;
     padding-top: 15px;
-    padding-left: 31px;
-    padding-right: 31px;
     margin-top: 53px;
-    margin-right: 42px;
+
     font-size: 30px;
     line-height: (37 / 30);
-    width: min-content;
   }
 
   @media (min-width: $desktop-width) {
@@ -53,7 +56,7 @@
 }
 .example-info__promo-text--kilos {
   @media (min-width: $tablet-width) {
-    width: inherit;
+    margin-right: 41px;
   }
 }
 .example-info__promo-text--days {
@@ -61,7 +64,7 @@
   @media (min-width: $tablet-width) {
     //margin: 0;
     //padding: 0;
-    width: inherit;
+
   }
 }
 .example-info__promo-description {
@@ -81,9 +84,13 @@
   line-height: 1;
 
   @media (min-width: $tablet-width) {
-    width: max-content;
+    white-space: nowrap;
+    background-color: $c-white;
+    max-width: 140px;
+    margin-top: -3px;
+    margin-bottom: -13px;
     padding: 0;
-    padding-top: 4px;
+    padding-top: 14px;
     font-size: 14px;
     line-height: 1;
   }
@@ -101,7 +108,7 @@
 
   @media (min-width: $tablet-width) {
     margin: 0;
-    margin-top: 37px;
+    margin-top: 26px;
     margin-left: 167px;
     display: flex;
     flex-direction: column;

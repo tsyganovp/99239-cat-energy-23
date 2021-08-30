@@ -14,7 +14,7 @@
       z-index: -2;
       position: absolute;
       top: -6px;
-      right: 75px;
+      right: 123px;
       content: '1';
       font-family: $ff-oswald;
       color: $c-basic-grey;
@@ -36,7 +36,7 @@
       z-index: -2;
       position: absolute;
       top: -6px;
-      right: 36px;
+      right: 74px;
       content: '2';
       font-family: $ff-oswald;
       color: $c-basic-grey;
@@ -57,8 +57,8 @@
     &::after {
       z-index: -2;
       position: absolute;
-      top: -6px;
-      right: 15px;
+      top: 14px;
+      right: 106px;
       content: '3';
       font-family: $ff-oswald;
       color: $c-basic-grey;
@@ -82,8 +82,8 @@
     &::after {
       z-index: -2;
       position: absolute;
-      top: -6px;
-      right: -6px;
+      top: 17px;
+      right: 70px;
       content: '4';
       font-family: $ff-oswald;
       color: $c-basic-grey;
