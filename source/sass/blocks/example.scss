@@ -1,6 +1,6 @@
 .example {
   margin-top: 0;
-  padding: 28px 20px 0 20px;
+  padding-top: 28px;
   display: flex;
   flex-direction: column;
   background-color: $c-grey-background;
@@ -29,6 +29,7 @@
   color: $c-black;
   line-height: (40 /36);
   font-weight: 400;
+  padding-left: 20px;
 
   @media (min-width: $tablet-width) {
     font-size: 60px;

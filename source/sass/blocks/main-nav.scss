@@ -1,5 +1,5 @@
 .main-nav {
-  margin: 0 auto;
+  width: 100%;
 
   @media (min-width: $tablet-width) {
     margin: 0;
@@ -38,8 +38,11 @@
 }
 
 .main-nav__item {
-  padding-top: 12%;
-  padding-bottom: 12%;
+  width: 100%;
+  text-align: center;
+  padding-top: 21px;
+  padding-bottom: 22px;
+  border-top: 1px solid $c-header-menu-border;
 
   @media (min-width: $tablet-width) {
     padding-top: 1%;
@@ -83,7 +86,8 @@
   width: fit-content;
   background: white;
   border: none;
-
+  padding: 0;
+  margin-right:20px;
   @media (min-width: $tablet-width) {
     display: none;
   }

@@ -1,17 +1,26 @@
 .wrapper {
-  margin-left: 20px;
-  margin-right: 20px;
-
-  @media (min-width: $desktop-width) {
-    margin-left: 110px;
-    margin-right: 110px;
-  }
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-
 .wrapper--nav {
  margin: 0;
 }
 
 .wrapper--main {
   margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.wrapper--map {
+  padding-left: 0;
+  padding-right: 0;
+}
+.wrapper--header {
+  padding-left: 0;
+  padding-right: 0;
+}
+.wrapper--example {
+  padding-left: 0;
+  padding-right: 0;
 }

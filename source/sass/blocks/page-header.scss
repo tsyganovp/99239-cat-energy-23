@@ -1,7 +1,6 @@
 .page-header {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
 
   @media (min-width: $desktop-width) {
     background: linear-gradient(to left,rgba(104, 183, 56, 0.85) 50%, $c-white 50%);
@@ -10,6 +9,7 @@
 
 .page-header__logo {
   width: 85%;
+  padding-left: 20px;
 }
 .page-header__logo-image {
 
@@ -22,7 +22,6 @@
   display: flex;
   width: 100%;
   padding-top: 11px;
-  padding-left: 20px;
   padding-bottom: 11px;
 
   @media (min-width: $tablet-width) {

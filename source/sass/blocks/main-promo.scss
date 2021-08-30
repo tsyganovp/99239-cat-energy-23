@@ -1,11 +1,10 @@
 .main-promo {
   padding-top: 27px;
-  padding-right: 20px;
-  padding-left: 20px;
   display: flex;
   flex-direction: column;
   background-image: url("../img/main-promo/background-mobile.jpg");
-  background-size: 100% 63%;
+  background-size: 320px 302px;
+  background-position: center top;
   background-repeat: no-repeat;
 
   @media (min-width: $tablet-width) {
@@ -98,6 +97,8 @@
 .main-promo__promo-link {
   order: 10;
   display: block;
+  margin-left:20px;
+  margin-right: 20px;
   padding-top: 12px;
   padding-bottom: 12px;
   background-color: $c-light-green;

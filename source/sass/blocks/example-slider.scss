@@ -1,6 +1,7 @@
 .example-slider {
-  padding-top: 39px;
-  padding-bottom: 34px;
+  padding-top: 34px;
+  padding-bottom: 38px;
+
   display: flex;
   flex-direction: column;
   @media (min-width: $tablet-width) {
@@ -15,9 +16,21 @@
     margin-left: -16px;
 }
 }
+.example-slider__image-container {
+  width: 311px;
+  height: 232px;
+  position: relative;
+}
+.example-slider__cat-left {
+  position: absolute;
+}
+.example-slider__cat-right {
+  position: absolute;
+}
 .example-slider__image {
- // width: 311px;
- margin: 0 auto;
+  margin: 0 auto;
+  width: 311px;
+  height: 232px;
 
  @media (min-width: $tablet-width) {
   width: 670px;

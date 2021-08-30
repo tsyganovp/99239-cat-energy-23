@@ -9,7 +9,7 @@
 </head>
 
 <body class="page__body">
-  <header class="page-header">
+  <header class="page-header wrapper wrapper--header">
 
     <div class="page-header__logo-block">
       <div class="page-header__logo">
@@ -118,7 +118,7 @@
         </li>
       </ul>
     </section>
-    <section class="example">
+    <section class="example wrapper wrapper--example">
       <h2 class="example__header">Живой пример</h2>
       <div class="example__info example-info">
         <p class="example-info__description">
@@ -141,15 +141,14 @@
         </p>
       </div>
       <div class="example-slider">
-
-        <picture class="example-slider__image example-slider__image--left">
-          <source media="(min-width: 1200px)" srcset="img/example/before-desktop.png">
-          <source media="(min-width: 768px)" srcset="img/example/desktop-cat.png">
-          <img src="img/example/before-mobile.png" alt="Картинка для сравнения результатов" width="260" height="232"
-            class="example-slider__image">
-        </picture>
-
-
+        <div class="example-slider__image-container">
+          <div class="example-slider__cat-left">
+            <img class = "example-slider__image cat-left" src="img/example/mobile-cat-fat.png" alt="Кот после корма">
+          </div>
+          <div class="example-slider__cat-right visually-hidden">
+            <img class = "example-slider__image cat-right" src="img/example/mobile-cat-skinny.png" alt="Кот до корма">
+          </div>
+        </div>
         <div class="example-slider__controls slider-controls">
           <button type="button" class="slider-controls__before-button">
             Было
@@ -163,10 +162,10 @@
         </div>
       </div>
     </section>
-    <section class="map wrapper">
+    <section class="map wrapper wrapper--map">
       <span class="map__pointer"></span>
       <iframe class="map__frame" src="https://yandex.ru/map-widget/v1/-/CCUQUArkKB"></iframe>
-      <div class="wrapper map__wrapper">
+      <div class="map__wrapper">
         <div class="map__contacts map-contacts">
           <p class="map__welcome-text">
             Приглашаем <br> к сотрудничеству<br> дилеров!
@@ -223,8 +222,6 @@
             d="M13.6426 0.0157537L13.5 0L0 1.40733V26.0129L13.5 34L27 26.0129V1.40733L13.6426 0.0157537ZM25.2344 25.0151L13.5 31.9573L1.76561 25.0151V14.9293L13.4507 21.8451L13.4701 23.0984L5.45351 18.3548L5.44295 19.5801L13.4894 24.3885L13.5088 25.675L5.46408 20.9174L5.45351 22.1427L13.5 26.9511L21.6239 22.1182V20.8929V16.909L25.2432 14.7595L25.2344 25.0151ZM25.2344 13.4519L22.0147 15.3319L20.5325 16.2071L13.4666 12.0201L13.456 13.2454L19.4957 16.818L19.4429 16.8495L19.3126 16.9247L18.4536 17.4166L13.4666 14.4689L13.456 15.6942L17.3921 18.0222L16.4591 18.6314L16.438 18.6436L13.4666 16.902L13.456 18.1273L15.4029 19.2615L13.4155 20.4483L1.7973 13.5762L13.4349 6.61831L25.2344 13.4519ZM25.2344 12.2266L13.4401 5.31075L1.76561 12.2196V2.9897L13.5 1.76442L25.2344 2.9897V12.2266Z"
             fill="#666666" />
         </svg>
-
-
 
       </a>
     </div>
